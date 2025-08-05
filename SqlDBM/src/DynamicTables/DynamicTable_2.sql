@@ -3,5 +3,8 @@
 
 -- ************************************** DynamicTable_2
 CREATE DYNAMIC TABLE DynamicTable_2
+(
+ dt binary NOT NULL
+)
 TARGET_LAG = 'DOWNSTREAM'
   AS -- Please write SELECT logic here;

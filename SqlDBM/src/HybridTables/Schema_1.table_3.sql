@@ -5,6 +5,7 @@
 CREATE HYBRID TABLE Schema_1.table_3
 (
  "col 1" array NOT NULL,
+ c1      binary NOT NULL,
 
  CONSTRAINT PK_1 PRIMARY KEY ( "col 1" )
 );

@@ -4,7 +4,8 @@
 -- ************************************** IcebergTable_4
 CREATE ICEBERG TABLE IcebergTable_4
 (
- c1 binary NOT NULL,
+ c1   binary NOT NULL,
+ c1_1 character NOT NULL,
 
- CONSTRAINT PK_1 PRIMARY KEY ( c1 )
+ CONSTRAINT PK_1 PRIMARY KEY ( c1, c1_1 )
 );
